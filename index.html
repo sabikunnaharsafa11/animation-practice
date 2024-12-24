@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .img-animation{
+          display: flex;
+          
+        }
+        img{
+            width: 400px;
+            height: auto;
+            border: 10px solid black;
+           
+            margin: 0 auto;
+            margin-top: 100px;
+            border-radius: 200px;
+            
+
+            position: relative;
+            animation-name: img-anim;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear; 
+        }
+ 
+
+        /* img top thake buttom  */
+        /* @keyframes img-anim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+} */
+
+
+/*  img soto thake boro */
+  /* @keyframes img-anim {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+} */
+
+        /* custom animation */
+
+     /* @keyframes img-anim{
+            0%{
+                right:0;
+                top: 0;
+                
+            }
+            25%{
+                right:200px;
+                top: 0;
+              
+            }       
+
+            100%{
+                right:0;
+                bottom: 0;
+              }  
+            
+        }  */
+
+/* Right to left animation */
+ @keyframes img-anim {
+  from {
+    right: -150px;
+    }
+  to {
+    right: 100%;
+    transform: translateX(-30%); 
+    
+    }
+}
+
+      
+            
+    </style>
+</head>
+<body>
+    <div class="img-animation">
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        <img src="https://cdn.goenhance.ai/user/2024/07/19/c0c1400b-abc2-4541-a849-a7e4f361d28d_0.jpg" alt="">
+        
+        
+        
+    </div>
+    
+</body>
+</html>

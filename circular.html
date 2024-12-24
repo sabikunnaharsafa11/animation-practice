@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+ body {
+  /* position: relative; */
+  height: 100vh;
+  background-color: #f0f0f0;
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animate-box {
+  width: 150px;
+  height: 50px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  animation: moveRightToLeft 3s infinite alternate;
+}
+
+@keyframes moveRightToLeft {
+  from {
+    right: -150px;
+  }
+  to {
+    right: 100%;
+    transform: translateX(-100%); 
+  }
+}
+
+    </style>
+</head>
+<body>
+    
+        <div class="animate-box">Move Me!</div>
+        <div class="animate-box">move!</div>
+        <div class="animate-box">Move Me!</div>
+      
+</body>
+</html>

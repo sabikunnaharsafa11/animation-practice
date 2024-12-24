@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+       .container{
+          display: flex;
+        }
+        h4{
+            width: 200px;
+            height: auto;
+            padding: 100px;
+            background-color: bisque;
+            margin: 200px 100px;
+            border-radius: 10px;   
+            box-shadow: 5px 5px  rgb(48, 40, 40);
+            animation: myAnim 2s linear 0s infinite normal forwards;
+        }
+     
+        h2{
+            width: 200px;
+            height: auto;
+            padding: 100px;
+            background-color: bisque;
+            margin: 200px 300px;
+            border-radius: 10px;   
+            box-shadow: 5px 5px  rgb(48, 40, 40);
+            animation: mysafa 2s linear 0s infinite normal forwards;
+            
+        }
+
+
+  /* h4 */
+     @keyframes myAnim {
+
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+    }
+
+    /* h2 */
+    @keyframes mysafa {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+
+    </style>
+</head>
+<body class="">
+    <div class="container">
+        <div>
+            <h4>animation</h4>
+    
+        </div>
+        <div>
+            <h2>animation</h2>
+        </div>
+    </div>
+    
+</body>
+</html>
